@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+package elcampus{
+ usecase "授業資料のダウンロード"as f1
+ usecase "課題の提出"as f2
+ usecase "履修登録"as f3
+}
+:user:-->f1
+:user:-->f2
+:user:-->f3
+@enduml
+
